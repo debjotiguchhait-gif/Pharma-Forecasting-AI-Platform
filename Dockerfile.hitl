@@ -1,0 +1,14 @@
+
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY requirements_dashboard.txt .
+RUN pip install --no-cache-dir -r requirements_dashboard.txt
+
+COPY hitl_dashboard.py .
+COPY tools ./tools
+
+ENV PORT=8080
+
+CMD ["sh", "-c", "streamlit run hitl_dashboard.py --server.address=0.0.0.0 --server.port=${PORT} --server.headless=true"]

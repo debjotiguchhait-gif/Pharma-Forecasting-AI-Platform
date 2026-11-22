@@ -1,0 +1,25 @@
+
+# Data processing
+pandas>=2.0
+numpy>=1.24
+
+# Statistical forecasting
+statsmodels
+scipy
+
+# Machine learning
+scikit-learn
+xgboost
+
+# Agent orchestration
+langgraph
+langchain-core
+langchain-mcp-adapters
+
+# MCP server
+mcp
+
+# Gemini / Google Cloud
+langchain-google-genai
+google-genai
+google-cloud-storage

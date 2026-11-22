@@ -1,0 +1,33 @@
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+*service_account*.json
+*.key
+*.pem
+
+# Data, logs and generated outputs
+*.csv
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.tar
+*.tgz
+*.parquet
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local settings
+.streamlit/secrets.toml
+.gcloud/

@@ -1,0 +1,13 @@
+
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - demo_interface/Dockerfile
+      - -t
+      - asia-south1-docker.pkg.dev/pharma-auto-forecasting/pharma-forecasting/forecast-dashboard:v1
+      - .
+
+images:
+  - asia-south1-docker.pkg.dev/pharma-auto-forecasting/pharma-forecasting/forecast-dashboard:v1

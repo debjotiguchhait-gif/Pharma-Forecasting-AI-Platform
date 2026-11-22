@@ -1,0 +1,9 @@
+Rows: 34,000
+Months: 68
+Date range: 2021-01 to 2026-08
+Unique medicine codes: 611
+Missing values by column: {'month': 0, 'rank': 0, 'bnf_chemical_substance_code': 0, 'bnf_chemical_substance': 57, 'items': 0, 'net_ingredient_cost_gbp': 0}
+Selected medicine monthly counts: {'Atorvastatin': 68, 'Metformin hydrochloride': 68, 'Omeprazole': 68}
+Selected records: 204
+WARNING: Investigate unusual July/August 2026 observations before forecasting.
+NOTE: Top-500 monthly coverage can cause selection bias.
