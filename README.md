@@ -4,7 +4,7 @@ An agentic AI-powered pharmaceutical forecasting platform integrating statistica
 
 ## System Architecture
 
-![Pharma Forecasting AI Platform — System Architecture](assets/Pharma Forecasting AI System Architecture.png)
+![Pharma Forecasting AI Platform — System Architecture](assets/Pharma%20Forecasting%20AI%20System%20Architecture.png)
 
 ## Key Features
 
