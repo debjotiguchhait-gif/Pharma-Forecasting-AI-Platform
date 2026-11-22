@@ -2,6 +2,10 @@
 
 An agentic AI-powered pharmaceutical forecasting platform integrating statistical forecasting, machine learning, model governance, human-in-the-loop (HITL) review, and cloud-based orchestration.
 
+## System Architecture
+
+![Pharma Forecasting AI Platform — System Architecture](assets/Pharma Forecasting AI System Architecture.png)
+
 ## Key Features
 
 - Multi-product pharmaceutical demand forecasting
